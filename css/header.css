@@ -1,0 +1,44 @@
+
+/* header and menu */
+
+header{
+margin-top:15px;
+width:95%;
+height:100px;
+}
+
+.main-nav ul{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  float:left;
+}
+
+.main-nav li{
+  display: inline-block;
+  text-decoration:none;
+  padding:20px;
+  flex-wrap: wrap;
+}
+
+.main-nav a{
+text-decoration: none;
+font-size:25px;
+}
+
+
+.my_name h1{
+
+float:right;
+color:#00ccff;
+
+
+}
+
+
+hr{
+  border-bottom: 3px solid #7d97ad;
+  width:95%;
+  margin-top:10px;
+}
+
+/*end header and menu*/
